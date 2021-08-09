@@ -1,0 +1,81 @@
+@font-face 
+    {
+    font-family: 'ralewaythin_italic';
+    src: url('raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('raleway-italic-variablefont_wght-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+
+       }
+
+@font-face 
+{
+    font-family: 'ralewaythin_black';
+    src: url(Raleway-Black.ttf) format('truetype');
+
+}
+
+@font-face 
+{
+    font-family: 'raleway extra light italic';
+    src: url(Raleway-ExtraLightItalic.ttf) format('truetype');
+    
+}
+
+
+section {
+      font-family: 'raleway extra light italic';
+     background-color: #F2F2F2 ;
+  
+   
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+.logo_reservia img {
+width:70px;
+height:auto;
+}
+
+h1
+{
+     font-family: 'ralewaythin_black';
+font-size:1.1em;
+}
+
+h2 {
+
+font-size: 0.8em;
+}
+
+h5 {
+font-size: 0.8em;
+}
+
+
+img
+
+{
+width: 150px
+
+
+}
+
+
+
+footer
+{
+
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: #F2F2F2 ;
+     padding-top: 25px;
+     
+    }
+
